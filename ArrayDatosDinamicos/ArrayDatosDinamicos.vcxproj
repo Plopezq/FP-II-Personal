@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="bd.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lista.cpp" />
+    <ClCompile Include="lista_datos_dinamicos.cpp" />
+    <ClCompile Include="registro.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lista.h" />
+    <ClInclude Include="registro.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{0010BF5F-DB94-4E3E-93E0-844B8B320629}</ProjectGuid>
@@ -137,18 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\bd.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\lista.cpp" />
-    <ClCompile Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\lista_datos_dinamicos.cpp" />
-    <ClCompile Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\registro.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\lista.h" />
-    <ClInclude Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\registro.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

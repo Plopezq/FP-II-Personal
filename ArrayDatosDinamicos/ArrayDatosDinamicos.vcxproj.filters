@@ -15,26 +15,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\lista.cpp">
+    <ClCompile Include="lista.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\lista_datos_dinamicos.cpp">
+    <ClCompile Include="lista_datos_dinamicos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\registro.cpp">
+    <ClCompile Include="registro.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\lista.h">
+    <ClInclude Include="lista.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\registro.h">
+    <ClInclude Include="registro.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\..\Google Drive\FP II\Array estático de punteros a datos dinámicos  (16042020)-20200418\bd.txt">
+    <Text Include="bd.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

@@ -1,0 +1,8 @@
+12345 123.59 Disco duro
+324356 234.5 Placa base core i7
+2121 15 Multupuerto USB
+54354 95 Disco externo 500 Gb
+112341 132.95 Procesador AMD
+66678325 78.99 Marco digital 2 Gb
+600673 154.5 Monitor 22" Nisu
+-1
