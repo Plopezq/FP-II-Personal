@@ -12,6 +12,6 @@ int main() {
       destruir(lista);
    }
    
-   return 0;
+   return 0; 
 }
 
