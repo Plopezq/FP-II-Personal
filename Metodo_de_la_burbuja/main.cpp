@@ -6,7 +6,7 @@ const int N = 15;
 typedef int tLista[N];
 
 int main() {
-    tLista lista;
+    tLista lista; 
     ifstream archivo;
     archivo.open("seleccion.txt");
     if (!archivo.is_open()) {
