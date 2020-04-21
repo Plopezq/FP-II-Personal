@@ -11,7 +11,7 @@ typedef struct {
    double valor;
 } tRegistro;
 
-typedef tRegistro *tRegPtr;
+typedef tRegistro *tRegPtr; //Defino los punteros a los registros
 
 // Lectura de los datos de un nuevo registro.
 tRegistro nuevo();
