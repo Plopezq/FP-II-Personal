@@ -11,7 +11,7 @@ int main() {
       mostrar(lista);
       destruir(lista);
    }
-   
+  
    return 0; 
 }
 
