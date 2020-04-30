@@ -34,17 +34,17 @@ int main() {
       }
       cout << endl;
       for (int i = 1; i < lista.contador; i++) {
-         pos = i;
-         while ((pos > 0)
-          && (lista.elementos[pos-1] > lista.elementos[pos])) 
+         pos = i; //Posicion que se cogera en el bucle while
+         //Mientras no estemos al principio y el anterior sea mayor --> Intercambiamos
+         while ((pos > 0)&& (lista.elementos[pos-1] > lista.elementos[pos])) 
          {
             tmp = lista.elementos[pos];
             lista.elementos[pos] = lista.elementos[pos - 1];
             lista.elementos[pos - 1] = tmp;
-            pos--;
+            pos--; //Posicion anterior
          }
       }
-      cout << "Después de ordenar:" << endl;
+      cout << "Despues de ordenar:" << endl;
       for (int i = 0; i < lista.contador; i++) {
          cout << lista.elementos[i] << "  ";
       }
