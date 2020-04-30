@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algoritmos_Ordenación", "A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ordenacion_por_insercion_con_intercambios", "..\Ordenacion_por_insercion_con_intercambios\Ordenacion_por_insercion_con_intercambios.vcxproj", "{0DD8F833-5326-4818-8C32-797CE6E74BFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "claves_ordenacion", "..\claves_ordenacion\claves_ordenacion.vcxproj", "{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{0DD8F833-5326-4818-8C32-797CE6E74BFF}.Release|x64.Build.0 = Release|x64
 		{0DD8F833-5326-4818-8C32-797CE6E74BFF}.Release|x86.ActiveCfg = Release|Win32
 		{0DD8F833-5326-4818-8C32-797CE6E74BFF}.Release|x86.Build.0 = Release|Win32
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Debug|x64.ActiveCfg = Debug|x64
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Debug|x64.Build.0 = Debug|x64
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Debug|x86.Build.0 = Debug|Win32
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Release|x64.ActiveCfg = Release|x64
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Release|x64.Build.0 = Release|x64
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Release|x86.ActiveCfg = Release|Win32
+		{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
