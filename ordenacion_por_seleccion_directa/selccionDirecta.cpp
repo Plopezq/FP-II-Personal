@@ -50,7 +50,7 @@ int main() {
                 }
             }
             //------------------------------------------------------
-            cout << "Después de ordenar:" << endl;
+            cout << "Despues de ordenar:" << endl;
             for (int i = 0; i < N; i++) {
                 cout << lista[i] << "  ";
             }

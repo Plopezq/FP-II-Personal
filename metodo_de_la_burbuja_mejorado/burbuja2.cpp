@@ -35,7 +35,7 @@ int main() {
             bool inter = true;
             int i = 0;
             while ((i < N - 1) && inter) {
-                // Desde el primer elemento hasta el penúltimo o no haya que seguir
+                // Desde el primer elemento hasta el penúltimo si hay intercambios...
                 inter = false;
                 for (int j = N - 1; j > i; j--) {
                     // Desde el último hasta el siguiente a i
@@ -52,7 +52,7 @@ int main() {
                 }
             }
             //-----------------------------------------------------------------
-            cout << "Después de ordenar:" << endl;
+            cout << "Despues de ordenar:" << endl;
             for (int i = 0; i < N; i++) {
                 cout << lista[i] << "  ";
             }

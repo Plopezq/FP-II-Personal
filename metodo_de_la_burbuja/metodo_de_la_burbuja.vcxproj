@@ -23,6 +23,7 @@
     <ProjectGuid>{46237381-7D5A-4F0B-8FB9-02B3A83DEBD7}</ProjectGuid>
     <RootNamespace>metododelaburbuja</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>4_metodo_de_la_burbuja</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
