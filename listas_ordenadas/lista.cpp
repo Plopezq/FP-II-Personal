@@ -116,6 +116,7 @@ void insertar(tLista& lista, tRegistro registro, bool& ok) {
         for (int j = lista.cont; j > i; j--) { // Desplazamos una posición a la derecha
             lista.registros[j] = lista.registros[j - 1];
         }
+            //Insertamos
         lista.registros[i] = registro;
         lista.cont++;
     }
