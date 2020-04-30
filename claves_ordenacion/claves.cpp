@@ -47,7 +47,7 @@ int main() {
                 tmp = lista.datos[pos];
                 lista.datos[pos] = lista.datos[pos - 1];
                 lista.datos[pos - 1] = tmp;
-                pos--;
+                pos--; //Posicion anterior
             }
         }
         cout << "Después de ordenar:" << endl;
