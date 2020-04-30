@@ -23,6 +23,7 @@
     <ProjectGuid>{40E3AF6C-99B7-4E1D-80DB-031AF70778E7}</ProjectGuid>
     <RootNamespace>ordenacionporintercambio</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ordenacion_por_intercambio</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

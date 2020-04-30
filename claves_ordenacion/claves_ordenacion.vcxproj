@@ -23,6 +23,7 @@
     <ProjectGuid>{508C5DB1-85AD-4DE1-83EF-1C3B3919F9AE}</ProjectGuid>
     <RootNamespace>clavesordenacion</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2_claves_ordenacion</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

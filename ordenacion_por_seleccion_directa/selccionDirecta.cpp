@@ -41,7 +41,8 @@ int main() {
                         menor = j;
                     }
                 }
-                if (menor > i) {
+                if (menor > i) { 
+                    //Intercambio
                     int tmp;
                     tmp = lista[i];
                     lista[i] = lista[menor];
