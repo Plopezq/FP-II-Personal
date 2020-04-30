@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{86F1480E-6BEB-43AB-A1EA-31368C62FF54}</ProjectGuid>
-    <RootNamespace>AlgoritmosOrdenación</RootNamespace>
+    <ProjectGuid>{0DD8F833-5326-4818-8C32-797CE6E74BFF}</ProjectGuid>
+    <RootNamespace>Ordenacionporinsercionconintercambios</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -137,6 +137,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
