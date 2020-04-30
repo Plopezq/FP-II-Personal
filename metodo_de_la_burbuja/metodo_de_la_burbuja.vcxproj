@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{9478DC79-C8D8-4888-88B1-75BE69144D09}</ProjectGuid>
-    <RootNamespace>ordenacionporselecciondirecta</RootNamespace>
+    <ProjectGuid>{46237381-7D5A-4F0B-8FB9-02B3A83DEBD7}</ProjectGuid>
+    <RootNamespace>metododelaburbuja</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,10 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="selccionDirecta.cpp" />
+    <ClCompile Include="burbuja.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="seleccion.txt" />
+    <Text Include="burbuja.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

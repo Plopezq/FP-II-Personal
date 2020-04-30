@@ -138,7 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="claves.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="datos.txt" />
