@@ -23,6 +23,7 @@
     <ProjectGuid>{DDA67A01-D8F9-4102-8652-92404C7021CD}</ProjectGuid>
     <RootNamespace>busquedabinaria</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>7_busqueda_binaria</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
