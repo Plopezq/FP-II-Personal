@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "metodo_de_la_burbuja_mejora
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listas_ordenadas", "..\listas_ordenadas\listas_ordenadas.vcxproj", "{D9CCAB03-DBC0-4C49-907E-DD03FA75A63A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "busqueda_binaria", "..\busqueda_binaria\busqueda_binaria.vcxproj", "{DDA67A01-D8F9-4102-8652-92404C7021CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{D9CCAB03-DBC0-4C49-907E-DD03FA75A63A}.Release|x64.Build.0 = Release|x64
 		{D9CCAB03-DBC0-4C49-907E-DD03FA75A63A}.Release|x86.ActiveCfg = Release|Win32
 		{D9CCAB03-DBC0-4C49-907E-DD03FA75A63A}.Release|x86.Build.0 = Release|Win32
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Debug|x64.ActiveCfg = Debug|x64
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Debug|x64.Build.0 = Debug|x64
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Debug|x86.ActiveCfg = Debug|Win32
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Debug|x86.Build.0 = Debug|Win32
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Release|x64.ActiveCfg = Release|x64
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Release|x64.Build.0 = Release|x64
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Release|x86.ActiveCfg = Release|Win32
+		{DDA67A01-D8F9-4102-8652-92404C7021CD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
