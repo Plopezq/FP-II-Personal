@@ -18,22 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="bd.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="lista.cpp" />
-    <ClCompile Include="lista_datos_dinamicos.cpp" />
-    <ClCompile Include="registro.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="lista.h" />
-    <ClInclude Include="registro.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{0010BF5F-DB94-4E3E-93E0-844B8B320629}</ProjectGuid>
-    <RootNamespace>ArrayDatosDinamicos</RootNamespace>
+    <ProjectGuid>{E0B05209-F070-441A-B55C-C6A7098D1930}</ProjectGuid>
+    <RootNamespace>arraydedatosdinamicos</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -149,6 +137,18 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="lista.cpp" />
+    <ClCompile Include="lista_datos_dinamicos.cpp" />
+    <ClCompile Include="registro.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lista.h" />
+    <ClInclude Include="registro.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bd.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

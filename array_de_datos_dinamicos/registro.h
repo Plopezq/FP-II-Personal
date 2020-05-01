@@ -6,12 +6,12 @@ using namespace std;
 
 // Estructura para los datos de cada registro:
 typedef struct {
-   int codigo;
-   string nombre;
-   double valor;
+    int codigo;
+    string nombre;
+    double valor;
 } tRegistro;
 
-typedef tRegistro *tRegPtr; //Defino los punteros a los registros
+typedef tRegistro* tRegPtr;
 
 // Lectura de los datos de un nuevo registro.
 tRegistro nuevo();

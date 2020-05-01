@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memoria_Dinámica", "Memoria_Dinámica.vcxproj", "{633220D7-7879-4A0A-A982-D024501027C6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "variables_dinamicas", "..\variables_dinamicas\variables_dinamicas.vcxproj", "{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "array_de_datos_dinamicos", "..\array_de_datos_dinamicos\array_de_datos_dinamicos.vcxproj", "{E0B05209-F070-441A-B55C-C6A7098D1930}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{633220D7-7879-4A0A-A982-D024501027C6}.Release|x64.Build.0 = Release|x64
 		{633220D7-7879-4A0A-A982-D024501027C6}.Release|x86.ActiveCfg = Release|Win32
 		{633220D7-7879-4A0A-A982-D024501027C6}.Release|x86.Build.0 = Release|Win32
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Debug|x64.ActiveCfg = Debug|x64
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Debug|x64.Build.0 = Debug|x64
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Debug|x86.ActiveCfg = Debug|Win32
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Debug|x86.Build.0 = Debug|Win32
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Release|x64.ActiveCfg = Release|x64
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Release|x64.Build.0 = Release|x64
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Release|x86.ActiveCfg = Release|Win32
+		{378EAB20-02EB-4CE2-AB55-DCDE8D4AB673}.Release|x86.Build.0 = Release|Win32
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Debug|x64.ActiveCfg = Debug|x64
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Debug|x64.Build.0 = Debug|x64
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Debug|x86.Build.0 = Debug|Win32
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Release|x64.ActiveCfg = Release|x64
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Release|x64.Build.0 = Release|x64
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Release|x86.ActiveCfg = Release|Win32
+		{E0B05209-F070-441A-B55C-C6A7098D1930}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
