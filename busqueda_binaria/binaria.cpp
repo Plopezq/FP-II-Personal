@@ -54,7 +54,7 @@ int buscar(tLista lista, int buscado) {
         else if (buscado < lista.elementos[mitad]) {
             fin = mitad - 1;
         }
-        else {
+        else { // buscado > lista.elementos[mitad]
             ini = mitad + 1;
         }
     }
