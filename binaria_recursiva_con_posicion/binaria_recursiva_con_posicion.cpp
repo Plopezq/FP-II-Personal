@@ -84,6 +84,5 @@ bool buscar(tLista lista, int buscado, int ini, int fin, int& pos) {
 			pos = ini;
 		}
 	}
-
 	return enc;
 }

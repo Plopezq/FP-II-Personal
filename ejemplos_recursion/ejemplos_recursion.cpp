@@ -7,7 +7,7 @@
 #include <string>
 using namespace std;
 
-typedef struct {
+typedef struct{
     int cont = 0;
     int array[100];
 }tLista;
@@ -62,14 +62,14 @@ int cuantosIguales2(const tLista& l, int pos, int num);
 
 int main() {
 
-    cout << endl << "    Ejercicios recursivos con números. \n\n";
-
-    int n = 253;
+    cout << endl << "Ejercicios recursivos con numeros. \n\n";
+    
+    int n = 15;
     cout << "N. de dígitos de " << n << " es: " << numDigitos(n) << endl;
     cout << "La suma de los dígitos de " << n << " es: " << suma(n) << endl;
     cout << "El sumatorio desde 1 hasta 10 es: " << sumatorio(10) << endl;
-    cout << n << " invertido es: " << invertir(n) << endl;
-
+    cout << " " << n << " invertido es: " << invertir(n) << endl;
+    
     cout << endl << "   Ejercicios recursivos con listas.\n";
     cout << "   Recorridos lineales \n\n";
 
@@ -80,17 +80,17 @@ int main() {
         l.cont++;
     }
 
-    cout << "Mostrar la lista l en su orden: ";
+    cout << "Mostrar la lista l en su orden: " << endl;
     mostrarDirecto(l, 0);
-
-    cout << "\nMostrar la lista l en orden inverso: ";
+    
+    cout << endl << "Mostrar la lista l en orden inverso: " << endl;
     mostrarInverso(l, 0);
-
-    cout << "\nMostrar los elementos de índice par de la lista l: ";
+    
+    cout << endl << "Mostrar los elementos de índice par de la lista l: ";
     mostrarIndexpares(l, 0);
-
-    cout << "\nSumar los elementos de la lista l: " << sumar(l, 0);
-
+    
+    cout << endl << "Sumar los elementos de la lista l: " << sumar(l, 0);
+    /*
     cout << "\nMostrar los números pares de la lista l: ";
     mostrarPares(l, 0);
 
@@ -152,7 +152,7 @@ int main() {
     cout << "\nLista con 10 elementos iguales: " << cuantosIguales(l_10_iguales);
 
 
-
+    */
     return 0;
 }
 
@@ -200,8 +200,6 @@ int invertir(int n) {
         return invertir(n);
     }
 }
-
-
 
 ////////////////////////////////////////
 // Ejercicios recursivos con listas.
