@@ -4,8 +4,8 @@ using namespace std;
 long long int factorial(int n);
 
 int main() {
-    for (int i = 0; i < 20; i++) {
-        cout << factorial(i) << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << "Factorial de: " << i << " = " << factorial(i) << endl;
     }
 
     return 0;
