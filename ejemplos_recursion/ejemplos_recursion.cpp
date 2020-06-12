@@ -90,10 +90,10 @@ int main() {
     mostrarIndexpares(l, 0);
     
     cout << endl << "Sumar los elementos de la lista l: " << sumar(l, 0);
-    /*
-    cout << "\nMostrar los números pares de la lista l: ";
+    
+    cout << endl << "Mostrar los números pares de la lista l: ";
     mostrarPares(l, 0);
-
+    
     cout << endl << endl << "    Ejercicios recursivos con listas. \n";
     cout << "    Búsquedas lineales \n";
 
@@ -152,7 +152,7 @@ int main() {
     cout << "\nLista con 10 elementos iguales: " << cuantosIguales(l_10_iguales);
 
 
-    */
+    
     return 0;
 }
 
