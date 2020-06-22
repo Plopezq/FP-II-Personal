@@ -111,7 +111,7 @@ void procesarEntradas(tListaPelis& peliculas, tListaPeticiones& peticiones, int&
 		posicion = buscarPelicula(peliculas, peticiones.arrayEntradas[p].titulo);
 
 		if(posicion != -1){ //Solo hago los caclulos si la pelicula existe, sino no
-			//Solicitan mas entradas de las disponibles, vendo el maximo
+			//Solicitan mas entradas de las disponibles, vendo el maximo y ademas elimino la peli del array dinamico
 			if (peticiones.arrayEntradas[p].num_solicitadas > peliculas.arrayPelis[posicion]->num_disponibles) {
 				//Le sumo su coste al total recaudado
 				coste += (peliculas.arrayPelis[posicion]->precio * peliculas.arrayPelis[posicion]->num_disponibles);
@@ -171,7 +171,8 @@ void liberarMemoria(tListaPelis& peliculas, tListaPeticiones& peticiones) {
 //Esta función me sirve para eliminar del array dinamico la pelicula que ya no tenga ninguna entrada disponible
 void eliminarPeli(tListaPelis& peliculas, int posicion) {
 
-	//Recorro desde la posicion a eliminar hasta el final, y desplazo toda la lista necesaria para no dejar huecos vacios
+	//Recorro desde la posicion de la pelicula con 0 entradas a eliminar hasta el final, 
+	// y desplazo toda la lista necesaria para no dejar huecos vacios
 	for (int z = posicion; z < peliculas.numPelis; z++) {
 		swap(peliculas.arrayPelis[z] , peliculas.arrayPelis[z+1]);
 	}

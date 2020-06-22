@@ -47,6 +47,7 @@ void ampliar(tListaPeticiones& lista);
 bool cargar(tListaPelis& listaPelis, tListaPeticiones& listaEntradas);
 void visualizarPelis(const tListaPelis& listaPelis);
 void visualizarPeticiones(const tListaPeticiones& listaEntradas);
+
 void procesarEntradas(tListaPelis& peliculas, tListaPeticiones& peticiones, int& coste);
 int buscarPelicula(const tListaPelis peliculas, string tituloPelicula);
 void liberarMemoria(tListaPelis& peliculas, tListaPeticiones& peticiones);
